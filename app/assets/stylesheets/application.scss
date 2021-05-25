@@ -16,3 +16,50 @@
 @import "bootstrap";
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 8px 16px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.field, .actions {
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-controll {
+  width: 100%;
+  padding: 6px 12px;
+}
+
+.notice {
+  color: green;
+}
+
+#error-massage {
+  color: red;
+}
+
+ul {
+  padding-left: 40px;
+}
+
+#notice {
+  margin-top: 16px;
+}
